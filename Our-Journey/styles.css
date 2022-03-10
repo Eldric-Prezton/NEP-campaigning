@@ -6,9 +6,27 @@ header{
     font-family: 'Herr Von Muellerhoff', cursive;
     font-size: x-large;
 }
-.header{
+a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
+    text-decoration-line: none;
+    text-decoration-color: black;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(87, 128, 173);
+}
+
+/* selected link */
+a:active {
+    color: black;
 }
 div{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
