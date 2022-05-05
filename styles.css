@@ -1,3 +1,52 @@
 header{
-    color: blue;
+    background-color: black;
+    color: white;
+}
+#Moto{
+    text-align: center;
+    font-size: 1cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+.links{
+    background-color: black;
+    font-size: 0.7cm;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration-line: underline;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+.header{
+    text-decoration: underline;
+    font-size: 0.7cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#aboutus{
+    font-size: 0.5cm;
+}
+#aboutus::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+ul{
+    float:left;
+}
+#ourcampaign{
+    margin-bottom: 1cm;
+}
+footer{
+    padding:0.5cm;
+    background-color: black;
+    color: white;
 }
