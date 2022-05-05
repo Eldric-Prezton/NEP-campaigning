@@ -29,6 +29,7 @@ a:visited{
     text-decoration: underline;
     font-size: 0.7cm;
     font-family: 'Times New Roman', Times, serif;
+    color: green;
 }
 
 #aboutus{
@@ -49,4 +50,7 @@ footer{
     padding:0.5cm;
     background-color: black;
     color: white;
+}
+body{
+    background-image: url('logo.jpg');
 }
